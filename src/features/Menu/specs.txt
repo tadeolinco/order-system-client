@@ -1,0 +1,30 @@
+Once the app has mounted, it FETCHES all possible menus and shows it in the 
+navigation panel. The user can TYPE IN THE SEARCH BAR to FILTER down the the list
+of menus. The panel also has a small X button near the search field to CLEAR THE 
+QUERY and RESET THE FILTER immediately.
+
+The panel also shows an add button. When clicked, changes the view of the 
+right hand side part of the page into a form.
+
+The user may also SELECT A MENU from the navigation panel, once so the contents
+of the other side of the page will show the menu name as the header as well as
+a table of menu items under showing each its name, price and whether is
+available or not. 
+
+When a menu item is selected from a table, the row will turn into a form field. 
+The menu item's name and price will turn into text fields, and the availability 
+will turn into a check box. A trash icon will also appear on the right side of
+the row. Clicking on the close icon will change the contents of the row to two
+buttons asking for confirmation of the deletion or to cancel it. Confirming
+will remove it from the list. Cancelling will take it back to it's form style.
+Deselecting will automatically save any changes on the menu item, or cancel 
+the deletion. Only one menu item can be selected at a time.
+
+Along with the header shows a trash icon button indicating to delete the menu,
+once clicked, it will deselect any selected menu items, and will replace
+the button with a confirm and cancel. If confirm is pressed, it deletes
+the menu along with all of its menu items and removes it from the list
+in the navigation panel. Cancelling with return the trash icon.
+
+
++ button in panel
